@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-family: "poppins";
+  width: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #292929;
+  height: 140vh;
+  box-shadow: black 2px 0px 20px;
+  width: 430px;
+  align-items: start;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.advice {
+  background-color: #1c1919;
+  height: 40px;
+  box-shadow: #ad3428 3px 5px 1px;
+  font-size: 1rem;
+  width: 75%;
+  margin-left: 45px;
+  padding: 20px;
+  font-style: italic;
+  font-style: bold;
+  font-weight: 600;
+}
+
+img {
+  margin: 50px;
+  width: 350px;
+}
+
+small {
+  font-size: 0.7rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+span {
+  color: red;
+}
+
+input {
+  background: white;
+  outline: red;
+  border: none;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 1.5px #ff0000, 0 0 0 3px #ffffff;
+}
+
+select {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 1.5px #ff0000, 0 0 0 3px #ffffff;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  font-size: 0.8rem;
+  font-family: "poppins";
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
+
+::-moz-placeholder {
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.places {
+  margin-top: 20px;
+}
+
+.places p {
+  text-align: center;
+}
+
+.places small {
+  display: flex;
+  text-align: left;
+  margin-left: 50px;
+  color: #ad3428;
+  font-size: 0.7rem;
+}
+
+.salvador {
+  width: 300px;
+}
+
+.date-info {
+  background-color: #ad3428;
+  box-shadow: #1c1919 0px 5px 5px;
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 0.8rem;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #1c1919;
+  height: 35px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  box-shadow: #1c1919 0px 5px 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: white;
+  color: #ad3428;
+}

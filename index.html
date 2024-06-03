@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinte School Contact Form</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <form action="submit">
+        <img src="./src/assets/images/logo.png" alt="" />
+
+        <p class="advice">
+          ENTRAREMOS EM CONTATO COM <br />
+          VOCÊ HOJE MESMO!
+        </p>
+        <small>PREENCHA OS CAMPOS <span>*</span>OBRIGATÓRIOS.</small>
+        <label class="name-label" for="nome"><span>*</span> SEU NOME</label>
+        <input id="name-input" type="text" />
+
+        <label for="phone-label"><span>*</span>TELEFONE</label>
+        <input type="text" placeholder="(DDD) 9 0000-0000" />
+        <label for="unity"><span>*</span>ESCOLHA A UNIDADE</label>
+        <select name="" id="unity-options">
+          <option value="salvador">Salvador</option>
+          <option value="recife">Recife</option>
+          <option value="belo-horizonte">Belo Horizonte</option>
+          <option value="fortaleza">Fortaleza</option>
+        </select>
+
+        <label for="course"><span>*</span>ESCOLHA O CURSO</label>
+        <select name="" id="course">
+          <option value="design-full-stack">Design Full Stack</option>
+          <option value="film-design">Film Design</option>
+          <option value="photograph">Fotografia</option>
+          <option value="digital-marketing">Marketing Digital</option>
+          <option value="full-stack-programming">Programação Full Stack</option>
+          <option value="data-science">Data Science</option>
+          <option value="undefined">Não decidi</option>
+        </select>
+        <label for="data"><span>*</span>AGENDE UMA VISITA</label>
+        <input type="date" />
+        <p class="date-info">
+          De segunda à sábado <br />
+          Das 8:00 às 20:00
+        </p>
+        <button>ENVIAR</button>
+        <div class="places">
+          <p>UNIDADE SALVADOR</p>
+          <small class="salvador"
+            >Ao lado do Salvador Shopping. Edf: Salvador <br />
+            Shopping Business, Torre Europa. Sala 310, atrás do Atacadão.</small
+          >
+          <p>UNIDADE FORTALEZA</p>
+          <small> Avenida Santos Dumont. Edf: Plaza Tower 2626 loja 15</small>
+          <p>UNIDADE BELO HORIZONTE</p>
+          <small>Avenida contorno, Savassi.Loja, numero 6480</small>
+          <p>UNIDADE RECIFE</p>
+          <small
+            >Shopping RioMar, RioMarTrade 4. Av. República do <br />
+            Líbano, 251.</small
+          >
+        </div>
+        <button>ENVIAR</button>
+        <button>VOLTAR</button>
+      </form>
+
+      <script src="./src/script.js"></script>
+    </main>
+  </body>
+</html>
